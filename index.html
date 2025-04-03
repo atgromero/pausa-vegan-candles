@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vegan candles landing page">
+  <meta name="keywords" content="vegan, candles, cruelty-free, landing page">
+  <meta name="author" content="Ana Romero">
+  <title>Pausa | Vegan Candles</title>
+  <link rel="stylesheet" href="./styles.css" type="text/css">
+  <script src="https://kit.fontawesome.com/f37c511cab.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Indie+Flower&family=Philosopher:wght@700&&family=Work+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+     <img src='https://i.imgur.com/83ArC7o.png' alt="Pausa logo" id="header-img" />
+     <h1 id="header-h1">Pausa. Vegan Candles</h1>
+     </div>
+     <nav id="nav-bar">
+       <ul>
+         <li><a href="#Features" class="nav-link">Features</a></li>
+         <li><a href="#Scents" class="nav-link">Scents</a></li>
+         <li><a href="#Blog" class="nav-link">Blog</a></li>
+       </ul>
+       <button id="cart-btn" class="btn cart-btn"><span id="show-hide">Show Cart</span></button>
+     </nav>
+    </header>
+  <div id="modal" class="modal">
+    <button id="clear-btn" class="btn clear-btn" type="button">Clear Cart</button>
+    <div id="cart-items"></div>
+    <div id="cart-totals"><p>Total number of items: <span id="total-items">0</span></p>
+    <p>Subtotal: <span id="subtotal">€0</span></p>
+    <p>Taxes: <span id="taxes">€0</span></p>
+    <p>Total: <span id="total">€0</span></p></div>
+    
+  </div>
+    <main>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <label for="email" class="email-label">Homemade scented candles</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required></input>
+          <input id="submit-btn" class="btn submit-btn" value=" SUBSCRIBE " type="submit"></input>
+        </form>
+   <section id="Features">
+          <div class="grid-features">
+          <div class="features-icons">
+            <i class="fa-solid fa-leaf"></i>
+            <i class="fa-regular fa-face-smile-beam"></i>
+            <i class="fa-solid fa-box-open"></i>
+            </div>
+          <div class="features-text">
+            <p><span class="li-bold">100% Vegan </span><span class="li-text">Our candles are 100% vegan, delivering cruelty-free luxury for your senses.</span></p>
+              <p><span class="li-bold">Unique Scents</span><span class="li-text">Discover distinctive fragrances curated for a one-of-a-kind sensory experience.</span></p>
+              <p><span class="li-bold">Eco-Friendly Packaging</span><span class="li-text">Packaged in eco-friendly materials, our candles prioritize sustainability without compromising on style.</span>
+              </p>
+          </div>
+          </div>
+         <div class="features-img"><img class="first-img" src='https://i.imgur.com/IV6iOzN.png' alt="candle-light" loading="lazy"/></div>
+        </section>
+        <section id="Scents">
+        <h2 id="scents-h2" class="section-h2">Choose your style!</h2>
+         <div id="candles-div" class="img-container">
+          <!-- <div class="candle-container"><img src='https://i.imgur.com/s7o9qP9.jpg'alt="candle type 1" class="candle-img" loading="lazy"/><div class="candle-text"><h3>Memories</h3>
+          <p>Light whispers of lavander, fresh linen and aged leather with delicate notes of nostalgia.</p>
+<input id="select" type="Submit" value="Select"></input></div>
+          </div>
+          <div class="candle-container"><img src='https://i.imgur.com/X85EVdu.jpg' alt="candle type 2" class="candle-img" loading="lazy"/><div class="candle-text"><h3>Zen</h3>
+        <p>Bamboo forest with hints of green tea, jasmine blossoms, and a touch of eucalyptus.</p>
+<input id="select" type="Submit" value="Select"></input></div>
+           </div>
+           <div class="candle-container"><img src='https://i.imgur.com/yZOIjnB.jpg' alt="candle type 3" class="candle-img" loading="lazy"/><div class="candle-text"><h3>The Dark</h3>
+        <p>Blend of smoky cedarwood, dark patchouli, and black orchid, touched by the essence of moonlight.</p>
+<input id="select" type="Submit" value="Select"></input></div>
+           </div>
+            <div class="candle-container"><img src='https://i.imgur.com/o4QPIvv.jpg' alt="candle type 4" class="candle-img" loading="lazy"/><div class="candle-text"><h3>Desire</h3>
+        <p>Freshly baked vanilla cupcakes kissed with cinnamon and tulips.</p>
+<input id="select" type="Submit" value="Select"></input></div>
+           </div>
+           <div class="candle-container"><img src='https://i.imgur.com/nR3k0dU.jpg' alt="candle type 5" class="candle-img" loading="lazy"/><div class="candle-text"><h3>Magic</h3>
+        <p>Exotic spices, patchouli, and a hint of citrus, cast by an alluring spell from space.</p>
+<input id="select" type="Submit" value="Select"></input></div>
+           </div> -->
+       </div>
+        </section>
+       <section id="Blog">
+        <h2 id="blog-h2" class="section-h2">A Day in Candle Making</h2>
+        <div class="blog-text"><p>Take a peek into our world! This video captures the chill vibes and good times of crafting our candles. 🔥✨ </p></div>
+        <iframe id="video" width="674" height="379" src="https://www.youtube.com/embed/5xNcvVAN_ew" title="HOME DIARY 001 candle making and pets" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0" loading="lazy"></iframe>
+        <div class="last">
+          <p>Thank you ♡ </p>
+        </div>
+        </section>
+    </main>
+  <footer>
+      <nav class="nav-footer">
+        <ul>
+          <li><a href="/about">About Us</a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/terms">Terms of Service</a></li>
+          <li><a href="/privacy">Privacy Policy</a></li>
+        </ul>
+      </nav>
+      <div class="footer-text">
+      <p class="italics">freeCodeCamp project</p>
+      <p>Copyright 2020, Pausa</p>
+      </div>
+    </footer>
+  </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
