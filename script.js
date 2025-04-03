@@ -20,7 +20,7 @@ const candles = [
     descr:
       "Light whispers of lavander, fresh linen and aged leather with delicate notes of nostalgia.",
     price: 15.99,
-    src: "https://i.imgur.com/s7o9qP9.jpg",
+    src: "pictures/2_vela_4.jpg",
   },
   {
     id: 102,
@@ -28,7 +28,7 @@ const candles = [
     descr:
       "Bamboo forest with hints of green tea, jasmine blossoms, and a touch of eucalyptus.",
     price: 14.99,
-    src: "https://i.imgur.com/X85EVdu.jpg",
+    src: "pictures/2_vela_1.jpg",
   },
   {
     id: 103,
@@ -36,14 +36,14 @@ const candles = [
     descr:
       "Blend of smoky cedarwood, dark patchouli, and black orchid, touched by the essence of moonlight.",
     price: 18.99,
-    src: "https://i.imgur.com/yZOIjnB.jpg",
+    src: "pictures/2_vela_3.jpg",
   },
   {
     id: 104,
     title: "Desire",
     descr: "Freshly baked vanilla cupcakes kissed with cinnamon and tulips.",
     price: 15.99,
-    src: "https://i.imgur.com/o4QPIvv.jpg",
+    src: "pictures/2_vela_2.jpg",
   },
   {
     id: 105,
@@ -51,7 +51,7 @@ const candles = [
     descr:
       "Exotic spices, patchouli, and a hint of citrus, cast by an alluring spell from space.",
     price: 20.99,
-    src: "https://i.imgur.com/nR3k0dU.jpg",
+    src: "pictures/2_vela_5.jpg",
   },
 ];
 
